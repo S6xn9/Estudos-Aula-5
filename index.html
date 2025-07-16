@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML - Ícone de Favoritos (Favicon)</title>
+</head>
+<body>
+
+  <h1>Ícone de Favoritos (Favicon) em HTML</h1>
+
+  <h2>1. O que é um Favicon?</h2>
+  <p>O favicon é um pequeno ícone que representa um site. Ele aparece na aba do navegador, na lista de favoritos, no histórico e em atalhos criados pelo usuário.</p>
+
+  <h2>2. Como inserir o favicon</h2>
+  <p>O favicon é inserido dentro da tag <code>&lt;head&gt;</code> com a tag <code>&lt;link&gt;</code>:</p>
+  <pre><code>&lt;link rel="icon" type="image/x-icon" href="favicon.ico"&gt;</code></pre>
+  <p>Outros exemplos:</p>
+  <pre><code>
+&lt;link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"&gt;
+&lt;link rel="icon" type="image/svg+xml" href="favicon.svg"&gt;
+&lt;link rel="apple-touch-icon" href="apple-touch-icon.png"&gt;
+  </code></pre>
+
+  <h2>3. Formatos suportados</h2>
+  <ul>
+    <li><strong>.ico</strong> – tradicional e suportado amplamente (image/x-icon)</li>
+    <li><strong>.png</strong> – qualidade e transparência (image/png)</li>
+    <li><strong>.gif</strong> – permite animações (não recomendado)</li>
+    <li><strong>.svg</strong> – vetorial, ideal para alta resolução (image/svg+xml)</li>
+  </ul>
+
+  <h2>4. Tamanhos recomendados</h2>
+  <ul>
+    <li>16x16 – aba do navegador</li>
+    <li>32x32, 48x48 – ícones padrão</li>
+    <li>192x192, 512x512 – atalhos de apps e Android</li>
+  </ul>
+
+  <h2>5. Exemplo completo</h2>
+  <pre><code>
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Minha Página com Favicon&lt;/title&gt;
+  &lt;link rel="icon" type="image/x-icon" href="favicon.ico"&gt;
+  &lt;link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"&gt;
+  &lt;link rel="icon" type="image/svg+xml" href="favicon.svg"&gt;
+&lt;/head&gt;
+  </code></pre>
+
+</body>
+</html>
