@@ -100,6 +100,3 @@
 - Teste em diferentes navegadores para garantir compatibilidade.
 
 ---
-mpatibilidade.
-
----
